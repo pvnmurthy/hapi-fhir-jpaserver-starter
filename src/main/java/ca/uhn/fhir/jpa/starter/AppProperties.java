@@ -65,6 +65,9 @@ public class AppProperties {
   private Map<String, ImplementationGuide> implementationGuides = null;
 
   private Boolean lastn_enabled = false;
+  //Added by pvnmurthy
+  private String as_certs_token_uri;
+  private String as_expected_issuer;
 
   public Integer getDefer_indexing_for_codesystems_of_size() {
     return defer_indexing_for_codesystems_of_size;
@@ -680,4 +683,20 @@ public class AppProperties {
       private Boolean quitWait = false;
     }
   }
+	public String getAs_certs_token_uri() {
+		return as_certs_token_uri;
+	}
+	
+	public void setAs_certs_token_uri(String as_certs_token_uri) {
+		this.as_certs_token_uri = as_certs_token_uri;
+	}
+
+	public String getAs_expected_issuer() {
+		return as_expected_issuer;
+	}
+	
+	public void setAs_expected_issuer(String as_expected_issuer) {
+		this.as_expected_issuer = as_expected_issuer;
+	}
+  
 }
