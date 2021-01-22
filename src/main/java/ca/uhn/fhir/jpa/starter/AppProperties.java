@@ -683,6 +683,7 @@ public class AppProperties {
       private Boolean quitWait = false;
     }
   }
+  //Added by pvnmurthy
 	public String getAs_certs_token_uri() {
 		return as_certs_token_uri;
 	}
